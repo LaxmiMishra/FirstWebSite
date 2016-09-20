@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>html with css</title>
+		<style>
+			body {
+		background-color:
+		}
+		h1 {
+		color: white;
+		text-align: center;
+		font-size: 250%;
+		
+		}
+		h2 {
+		color: white;
+		font-size: 220%;
+		margin-left: 35px;
+		background-color: green;
+		}
+		p {
+		font-family: verdana;
+		color: black;
+		font-size: 20px;
+		background-color: pink;
+		border-radius: 15px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-right: 700px;
+		margin-left: 70px;
+		}
+		
+		.header {
+			width: 40%;
+		border-radius: 40px;
+		max-height: 150px;
+		background-color: red;
+		margin-left: 300px;
+		margin-right: 10px;
+		margin-top: auto;
+		margin-bottom: 10px;
+		border: 4px;
+		border-style: solid;
+		border-color: black;
+		padding-left: 100px;
+		padding-right: 50px;
+		}
+		
+		p.dotted {border-style: dotted;}
+		p.dashed {border-style: dashed;}
+		p.solid {border-style: solid;}
+		p.double {border-style: double;}
+		p.groove {border-style: groove;}
+		p.ridge {border-style: ridge;}
+		p.inset {border-style: inset;}
+		p.outset {border-style: outset;}
+		p.mix {border-style: dotted dashed solid double;
+		}
+		.button { 
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+		margin: 4px 2px;
+		cursor: pointer;
+		}
+		.button1 {background-color: black;} 
+		.button2 {background-color: red;} 
+		.button3 {background-color: red;} 
+		.button4 {background-color: green;} 
+		.button5 {background-color: blue;} 
+		.button6 {background-color: blue;} 
+		.button7 {background-color: green;} 
+		.button8 {background-color: blue;} 
+        .button8 {background-color: yellow;} 
+		.button10 {background-color: orange;} 
+		.button11 {background-color: skyblue;} 
+		.button12 {background-color: skyblue;} 
+		.button13 {background-color: orange;} 
+		.button14 {background-color: yellow;} 
+        .button15 {background-color: blue;}  
+        background-image: url(/home/laxmi/Desktop/Website/img/images.jpg);
+		</style>
+		
+		
+	</head>
+	<body>
+		<div class=header><h1>*Decision Trees*<h1></div>
+		<hr>
+		<div class="header"><h2>What is a Decision Tree?</h2></div>
+		
+		<p class="solid">A decision tree used a tree structure to represent a number of possible decision paths and an outcome for each path.</p>
+		<p class="dotted">"I am thinking of an animal.</p>
+		<p class="dashed">Does it have more than five lege?</p>
+		<p class="solid">No.</p>
+		<p class="double">Is it delicious?</p>
+		<p class="groove">No.</p>
+		<p class="ridge">Does it appear on the australian five-cent coin?</p>
+		<p class="inset">Yes</p>
+		<p class="outset">Is it an echidna?</p>
+		<p class="mix">Yes it is!</p>
+		
+		<button class="button button1">more then 5 legs?</button>
+		<button class="button button2">delicious?</button>
+		<button class="button button3">is hiding under your ded?</button>
+		<button class="button button4">on back of Australian 5-cent coin?</button>
+		<button class="button button5">star of charlotte's wed?</button>
+		<button class="button button6">Makes honey?</button>
+		<button class="button button7">star of charlotte's wed?</button>
+		<button class="button button8">kitly cat!</button>
+		<button class="button button9">Echidna!</button>
+		<button class="button button10">Bison!</button>
+		<button class="button button11">Pig!</button>
+		<button class="button button12">Mosquito!</button>
+		<button class="button button13">Honeybee!</button>
+        <button class="button button14">Bed bug!</button>
+        <button class="button button15">Sqider!</button>		
+		
+	</body>
+</html>

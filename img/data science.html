@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		form div {
+			margin-top: 1em;
+		}
+		label{
+			display: inline-block;
+			width: 90px;
+			text-align: right;
+		}
+		input, textarea{
+			font: 1em sans-serif;
+		width: 300px;
+		-moz-box-sizing: border-box;
+		box-sizing: bordre-box;
+		border: 1px solid #999;
+		}
+		input:focus, textarea:focus{
+			border-color: red;
+		}
+		textarea {
+			vertical-align: top;
+			height: 5em;
+			resize: vertical;
+		}
+		.button {
+			padding-left: 90px;
+		}
+		button {
+			margin-left: .5em;
+		}
+		</style>
+	</head>
+	<body>
+		<center>
+		<form>
+			<form>
+			<div>
+				<label for="username">username*:</label>
+				<input type="text" id="name" username="user_name"/>
+			</div>
+			<div>
+				<label for="mail">password*:</label>
+					<input type="password"id="mail" name="user_mail"/>
+				</div>
+				<div>
+					<label for="msg">Message</label>
+					<textarea id="msg" name="user_message"></textarea>
+				</div>
+			</center>
+			<div>
+				<input type="radio" name="gender" value="male" checked> Male<br>
+				<input type="radio" name="gender" value="female"> Female<br>
+				<input type="radio" name="gender" value="other"> Other
+			</div>
+			
+		</body>
+	</html>

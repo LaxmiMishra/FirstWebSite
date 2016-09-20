@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Layout</title>
+		<style type="text/css">
+		
+		.btn {
+		background-color: red;
+		position:absolute;
+		border-color: black;
+		left: 105px;
+		top:180px;
+		font-size: 20px;
+		}
+
+		h1 {
+            position: absolute;
+			left:20px;
+			top:0px;
+			padding-bottom: 10px;
+		}
+
+        .form{
+           position: absolute;
+           left: 200px;
+           top:100px;	
+           border-color: red;
+           border-style: solid;
+           width: 30%;
+           height: 60%;
+           padding-top: 30px;
+           padding-left: 20px
+        }
+
+		input[type=text], input[type=password],input[type=Email]  {
+          display:block;
+          margin-top: 10px;
+          padding-left: 20px
+		}
+
+		.header {
+		background-color:red;
+		border: solid;
+		border-color: black;
+		position:absolute;
+		height: 20%;
+		width:97%;
+		top:30px;
+		left:20px;
+		}
+		
+		.side-left {
+		background-color:yellow;
+		border: solid;
+		border-color: black;
+		position:absolute;
+		height: 60%;
+		width:20%;
+		padding-right: 20px;
+		opacity: 0.6;
+		top:200px;
+		left:10px;
+		
+		}
+		
+		.side-right {
+		background-color:yellow;
+		border: solid;
+		border-color: black;
+		position:absolute;
+		height: 60%;
+		width:23%;
+		opacity: 0.6;
+		top:200px;
+		right:10px;
+		
+		}
+		
+		.middle {
+	    background-color:gray;
+		border: solid;
+		border-color: black;
+		position:absolute;
+		height: 60%;
+		width:50%;
+		opacity: 0.6;
+		top:200px;
+		left:320px;
+		right:320px;
+		bottom: 10px;
+		}
+		.footer {
+		background-color:blue;
+		border: solid;
+		border-color: black;
+		position:absolute;
+		height: 20%;
+		width:97%;
+		opacity: 0.6;
+		top:600px;
+		left:20px;
+		bottom: 20px
+		}
+		ul {
+		list-style-type: none;
+		float:right;
+		padding-right:10px
+		}
+		li {
+		background-color: white;
+		float:left;
+		padding-right:10px
+		}
+		
+		li > a {
+		display: block;
+		color: black;
+		font-size: 25px;
+		padding-left:8px;
+		}
+		li > a:hover {
+		
+		background-color:green
+		
+		}
+		</style>
+	</head>
+	<body>
+		
+		<div class="header">
+			
+			
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#abt us">About us</a></li>
+				<li><a href="#Products">Our Prodcuts</a></li>
+				<li><a href="#Contact">Contact us</a></li>
+			</ul>
+			
+			
+		</div>
+		
+		<div class = "side-left">
+			
+		</div>
+		<div class="middle">
+		  
+		  <div class="form">
+		  <h1>New user</h1>
+		    <input type="text" name="t1" placeholder="First Name">
+		     <input type="text" name="t1" placeholder="Last Name">
+		      <input type="text" name="t1" placeholder="Phone">
+		       <input type="Email" name="t1" placeholder="Email">
+		        <input type="password" name="t1" placeholder="Password">
+			<button class="btn">click me</button>
+			</div>
+		</div>
+		<div class = "side-right">
+			
+		</div>
+		<div class = "footer">
+			
+		</div>
+		
+	</body>
+</html>

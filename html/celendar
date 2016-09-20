@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>celendar</title>
+	</head>
+	<body>
+	<center>
+	<h1>Celendar</h1>
+		<div>
+			<label for="color">color</label>
+			<input type="color" name="usercolor"><br>
+		
+		
+			<label for="date">date</label>
+			<input type="date" name="userdate"><br>
+
+			<label for="datetime">datetime</label>
+			<input type="datetime" name="userdatetime"><br>
+			<label for="date">datetime-local</label>
+			<input type="datetime-local" name="userlocaltime"><br>
+			<label for="email">email</label>
+			<input type="email" name="useremail"><br>
+			<label for="month">month</label>
+			<input type="month" name="usermonth"><br>
+			<label for="number">number</label><br>
+			<input type="number" name=""><br>
+			<label for="range">range</label>
+			<input type="range" name=""><br><br>
+			<label for="search">search</label>
+			<input type="search" name=""><br>
+			<label for="time">time</label>
+			<input type="time" name=""><br>
+			<label for="url">url</label>
+			<input type="url" name=""><br>
+			<label for="week">week</label>
+			<input type="week" name="">
+		</div>
+		</center>
+		
+	</body>
+</html>

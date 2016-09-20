@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>table</title>
+		<style>
+		img {
+		opacity: 0.6; padding: 5px; margin: 10px;
+		}
+		img:hover { opacity: 2.0;)
+		}
+		
+		table {border-collapse: collapse; width: 60%;
+		}
+			table,th,td {
+				border: 1px solid black;
+				margin: 10px;
+			}
+			th{
+				height: 40px;
+				text-align: left;
+				background-color: green;
+		color: white;
+			}
+		td {
+		height: 30px; vertical-align: bottom;
+		}
+		th , td{
+		padding-left: 12px;
+		}
+		tr:nth-child(odd) {background-color: pink}
+		h1{
+			padding-left:8%;
+			border: 2px solid black;
+			color: red;
+		width: 20%;
+			margin-left: 100px;
+		}
+		ul {
+		list-style-type: none;
+		padding : 0;
+		width: 300px;
+		background-color: orange;
+		border: 3px solid black;
+		}
+		li a {
+		display: block;
+		padding: 10px 20px;
+		text-decoration: none;
+		}
+		li {
+		text-align: center;
+		border-bottom: 1px solid #555;
+		}
+		li:last-child {
+		border-bottom: none;
+		}
+		li a.active {
+		background-color: green;
+		color: white;
+		}
+		li a:hover:not(.active) {
+		background-color: purple: ;
+		color: white;
+		}
+		
+		</style>
+	</head>
+	<body>
+		<h1>Border table:</h1>
+		<table>
+			<tr>
+				<th>First name</th>
+				<th>Last name</th>
+				<th>Salary</th>
+			</tr>
+			<tr>
+				<td>Piyush</td>
+				<td>Mishra</td>
+				<td>80,000</td>
+			</tr>
+			<tr>
+				<td>Vishal</td>
+				<td>Mishra</td>
+				<td>15,000</td>
+			</tr>
+			<tr>
+				<td>Richa</td>
+				<td>Mishra</td>
+				<td>10,000</td>
+			</tr>
+			<tr>
+				<td>Laxmi</td>
+				<td>Mishra</td>
+				<td>10,000</td>
+			</tr>
+		</table>
+		
+		<img src="/home/laxmi/Desktop/Website/img/images.jpg" alt="flower" width="200px" height="200px";>
+		<img src="/home/laxmi/Desktop/Website/img/car.png" alt="car image" width="200px" height="200px";>
+		<img src="/home/laxmi/Desktop/Website/img/images.jpg" alt="flower" width="200px" height="200px";>
+		<ul>
+			<li><a class="active" href="Name">Name</a></li>
+			<li><a href="Location">Location</a></li>
+			<li><a href="Author(s)">Author(s)</a></li>
+			<li><a href="Descraption and use">Descraption and use</a></li>
+		</ul>
+	</body>
+</html>
