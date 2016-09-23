@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>html with css</title>
-		<style>
+		<style type>
 			body {
 		background-color:
 		}
@@ -121,3 +121,7 @@
 		
 	</body>
 </html>
+
+
+
+

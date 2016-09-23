@@ -1,0 +1,153 @@
+.mydivLeft {
+position: absolute;
+display: inline-block;
+float: left
+}
+.mydivRight {
+position: relative;
+display: inline-block;
+float: right
+}
+.border {
+border-color: black;
+}
+.header {
+background-color:
+height:200px;
+opacity: 0.9
+}
+.button {
+background-color: #00FF3A;
+color: black;
+padding: 16px;
+font-size: 20px;
+border: none;
+cursor: pointer
+}
+.img-header {
+top:8px;
+position:absolute;
+left:600px;
+width:100px;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+right: -100px;
+background-color: pink;
+box-shadow: 0px 10px 10px gray;
+min-width: 160px;
+}
+.dropdown-content a {
+text-decoration: none;
+position: relative;
+padding: 18px 18px;
+display: block;
+font-size: 20px
+}
+.dropdown-content a:hover {
+background-color: white;
+}
+.mydivLeft:hover .dropdown-content {
+display: block;
+}
+.mydivRight:hover .dropdown-content {
+display: block;
+}
+.img-header:hover .dropdown-content {
+display: block;
+}
+.caption {
+width:300px;
+height:50px;
+text-align: center;
+color: red;
+padding-top: 20px;
+background-color: pink;
+font-size:20px;
+}
+
+.tooltip {
+position: absolute;
+display: inline-block;
+border-bottom: 2px double black;
+top: 210px;
+left: 30px;
+background-color: hotpink;
+font-size:20px;
+}
+.tooltip .btn {
+visibility: hidden;
+width: 120px;
+background-color: purple;
+color:white;
+text-align: center;
+ border-radius: 8px;
+padding: 5px 0;
+position: absolute;
+z-index: 1;
+top: -5px;
+left: 110%;
+}
+.tooltip .btn::after {
+content: "";
+position:absolute;
+top: 50%;
+right: 100%;
+margin-top: -5px;
+border-width: 5px;
+border-style: solid;
+border-color: transparent purple transparent transparent;
+}
+.tooltip:hover .btn {
+visibility: visible;
+}
+
+.imgdiv {
+padding-top: 220px;
+padding-left: 40%;
+}
+#home {
+    width: 100px;
+    height: 80px;
+    background: url(/home/laxmi/Desktop/Website/img/house.jpg);
+}
+
+#next {
+    width: 100px;
+    height: 80px;
+    background: url(/home/laxmi/Desktop/Website/img/images.jpg);
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    background-color: #3CBC8D;
+    color: white;
+    border: 3px solid green;
+    border-radius: 4px;
+    font-size: 17px;
+}
+input[type=submit] {
+    width: 20%;
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 70%;
+    font-size: 17px;
+}
+.form {
+    border-radius: 5px;
+    background-color: pink;
+}
+#rcorners6 {
+    border-radius: 15px 50px;
+    background: red;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
