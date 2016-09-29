@@ -1,112 +1,134 @@
-.mydivLeft {
-position: absolute;
-display: inline-block;
-float: left
-}
-.mydivRight {
-position: relative;
-display: inline-block;
-float: right
-}
-.border {
-border-color: black;
-}
-.header {
-background-color:
-height:200px;
-opacity: 0.9
-}
-.button {
-background-color: #00FF3A;
-color: black;
-padding: 16px;
-font-size: 20px;
-border: none;
-cursor: pointer
-}
-.img-header {
-top:8px;
-position:absolute;
-left:600px;
-width:100px;
-}
-.dropdown-content {
-display: none;
-position: absolute;
-right: -100px;
-background-color: pink;
-box-shadow: 0px 10px 10px gray;
-min-width: 160px;
-}
-.dropdown-content a {
-text-decoration: none;
-position: relative;
-padding: 18px 18px;
-display: block;
-font-size: 20px
-}
-.dropdown-content a:hover {
-background-color: white;
-}
-.mydivLeft:hover .dropdown-content {
-display: block;
-}
-.mydivRight:hover .dropdown-content {
-display: block;
-}
-.img-header:hover .dropdown-content {
-display: block;
-}
-.caption {
-width:300px;
-height:50px;
-text-align: center;
-color: red;
-padding-top: 20px;
-background-color: pink;
-font-size:20px;
+ .mydivLeft {
+    position: absolute;
+    display: inline-block;
+    float: left
 }
 
-.tooltip {
-position: absolute;
-display: inline-block;
-border-bottom: 2px double black;
-top: 210px;
-left: 30px;
-background-color: hotpink;
-font-size:20px;
+.mydivRight {
+    position: relative;
+    display: inline-block;
+    float: right
 }
-.tooltip .btn {
-visibility: hidden;
-width: 120px;
-background-color: purple;
-color:white;
-text-align: center;
- border-radius: 8px;
-padding: 5px 0;
-position: absolute;
-z-index: 1;
-top: -5px;
-left: 110%;
+
+.border {
+    border-color: black;
 }
-.tooltip .btn::after {
-content: "";
-position:absolute;
-top: 50%;
-right: 100%;
-margin-top: -5px;
-border-width: 5px;
-border-style: solid;
-border-color: transparent purple transparent transparent;
+
+.header {
+    opacity: 0.9 background-color: height: 200px;
 }
-.tooltip:hover .btn {
-visibility: visible;
+
+.button {
+    padding: 16px;
+    cursor: pointer color: black;
+    border: none;
+    background-color: #00FF3A;
+    font-size: 20px;
+}
+
+audio:hover, audio:focus, audio:active {
+    -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.img-header {
+    position: absolute;
+    top: 8px;
+    left: 600px;
+    width: 100px;
+}
+
+.dropdown-content {
+    position: absolute;
+    right: -100px;
+    display: none;
+    min-width: 160px;
+    background-color: pink;
+    box-shadow: 0px 10px 10px gray;
+}
+
+.dropdown-content a {
+    position: relative;
+    display: block;
+    padding: 18px 18px;
+    text-decoration: none;
+    font-size: 20px
+}
+
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.mydivLeft:hover .dropdown-content {
+    display: block;
+}
+
+.mydivRight:hover .dropdown-content {
+    display: block;
+}
+
+.img-header:hover .dropdown-content {
+    display: block;
+}
+
+.caption {
+    width: 300px;
+    height: 50px;
+    padding-top: 20px;
+    text-align: center;
+    color: red;
+    background-color: pink;
+    font-size: 20px;
+}
+
+.tooltip-div {
+    position: absolute;
+    top: 210px;
+    left: 30px;
+    display: inline-block;
+    border-bottom: 2px double black;
+    background-color: hotpink;
+    font-size: 20px;
+}
+
+.tooltip-div .btn {
+    position: absolute;
+    z-index: auto;
+    top: -5px;
+    left: 110%;
+    visibility: hidden;
+    width: 120px;
+    padding: 5px 0;
+    text-align: center;
+    color: white;
+    border-radius: 8px;
+    background-color: purple;
+}
+
+.tooltip-div .btn::after {
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    content: "";
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent purple transparent transparent;
+}
+
+.tooltip-div:hover .btn {
+    visibility: visible;
 }
 
 .imgdiv {
-padding-top: 220px;
-padding-left: 40%;
+    padding-top: 220px;
+    padding-left: 40%;
 }
+
 #home {
     width: 100px;
     height: 80px;
@@ -120,34 +142,86 @@ padding-left: 40%;
 }
 
 input[type=text] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 10px 0;
     box-sizing: border-box;
-    background-color: #3CBC8D;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px 20px;
     color: white;
     border: 3px solid green;
     border-radius: 4px;
+    background-color: #3CBC8D;
     font-size: 17px;
 }
+
 input[type=submit] {
     width: 20%;
-    background-color: blue;
-    color: white;
-    padding: 14px 20px;
     margin: 8px 0;
-    border-radius: 8px;
-    cursor: pointer;
     margin-left: 70%;
+    padding: 14px 20px;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+    background-color: blue;
     font-size: 17px;
 }
+
 .form {
+    position: absolute;
+    left: 400px;
+    width: 500px;
+    margin: 20px;
+    padding: 20px;
     border-radius: 5px;
     background-color: pink;
 }
+
 #rcorners6 {
-    border-radius: 15px 50px;
-    background: red;
-    padding: 10px;
     width: 100px;
     height: 100px;
+    padding: 10px;
+    border-radius: 15px 50px;
+    background: red;
+}
+
+.myButton {
+    display: inline-block;
+    padding: 6px 14px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+    border: 9px solid #0b0e07;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #2dabf9), color-stop(1, #0688fa));
+    background: -moz-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+    background: -webkit-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+    background: -o-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+    background: -ms-linear-gradient(top, #2dabf9 5%, #0688fa 100%);
+    background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+    background-color: #2dabf9;
+    -webkit-box-shadow: 0px 21px 14px -7px #29bbff;
+    -moz-box-shadow: 0px 21px 14px -7px #29bbff;
+    box-shadow: 0px 21px 14px -7px #29bbff;
+    text-shadow: 0px 0px 0px #263666;
+    font-family: Arial;
+    font-size: 21px;
+    font-weight: bold;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#2dabf9', endColorstr='#0688fa', GradientType=0);
+}
+
+.myButton:hover {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0688fa), color-stop(1, #2dabf9));
+    background: -moz-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+    background: -webkit-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+    background: -o-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+    background: -ms-linear-gradient(top, #0688fa 5%, #2dabf9 100%);
+    background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+    background-color: #0688fa;
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0688fa', endColorstr='#2dabf9', GradientType=0);
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}

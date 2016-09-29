@@ -1,0 +1,46 @@
+html	/home/laxmi/Desktop/Website/html/drpdwn.html	/^<html>$/;"	function	line:2
+head	/home/laxmi/Desktop/Website/html/drpdwn.html	/^<head>$/;"	function	line:3
+title	/home/laxmi/Desktop/Website/html/drpdwn.html	/^    <title>Drop Down Content Example<\/title>$/;"	function	line:4
+link	/home/laxmi/Desktop/Website/html/drpdwn.html	/^    <link rel="stylesheet" type="text\/css" href="\/home\/laxmi\/Desktop\/Website\/css\/style.css">$/;"	function	line:6
+body	/home/laxmi/Desktop/Website/html/drpdwn.html	/^<body style="background-color:black">$/;"	function	line:9
+div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^    <div class="header border">$/;"	function	line:10
+div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <div class="mydivLeft">$/;"	function	line:11
+button	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <button class="button">Vegeterian dishes<\/button>$/;"	function	line:12
+div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^              <div class="dropdown-content">$/;"	function	line:13
+a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <a href="#">Gobhi Manchurian<\/a>$/;"	function	line:14
+a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <a href="#">Malai Kofta<\/a>$/;"	function	line:15
+a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <a href="#">kadhai Paneer<\/a>$/;"	function	line:16
+div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <div class="img-header border">$/;"	function	line:19
+img	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <img src="\/home\/laxmi\/Desktop\/Website\/img\/images.jpg" alt="flower" width="100" height="80">$/;"	function	line:20
+div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <div class="dropdown-content">$/;"	function	line:21
+img	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <img src="\/home\/laxmi\/Desktop\/Website\/img\/images.jpg" alt="flower" width="300" height="200">$/;"	function	line:22
+div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <div class="caption">Beautiful Trolltunga, Norway<\/div>$/;"	function	line:23
+div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <div class="mydivRight">$/;"	function	line:26
+button	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <button class="button">Non veg dishes<\/button>$/;"	function	line:27
+div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <div class="dropdown-content">$/;"	function	line:28
+a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <a href="#">Non vage Manchurian<\/a>$/;"	function	line:29
+a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <a href="#">Noob veg Malai Kofta<\/a>$/;"	function	line:30
+a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <a href="#">non veg kadhai Paneer<\/a>$/;"	function	line:31
+div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <div class="imgdiv">$/;"	function	line:34
+img	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <img id="home" src="\/home\/laxmi\/Desktop\/Website\/img\/house.jpg" alt="dgdf">$/;"	function	line:35
+br	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <br>$/;"	function	line:36
+br	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <br>$/;"	function	line:37
+img	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <img id="next" src="\/home\/laxmi\/Desktop\/Website\/img\/images.jpg" alt="gfxgcf">$/;"	function	line:38
+div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <div class="tooltip-div">Hover over me$/;"	function	line:40
+span	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <span class="btn">Tooltip text<\/span>$/;"	function	line:41
+div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <div class="form">$/;"	function	line:43
+form	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <form action="#">$/;"	function	line:44
+label	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <label for="fname">First Name<\/label>$/;"	function	line:45
+input	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <input type="text" id="fname" name="fname" value="Laxmi">$/;"	function	line:46
+label	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <label for="lname">Last Name<\/label>$/;"	function	line:47
+input	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <input type="text" id="lname" name="lname" value="Mishra">$/;"	function	line:48
+label	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <label for="D.O.B.">D.O.B.<\/label>$/;"	function	line:49
+input	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <input type="text" id="D.O.B." name="D.O.B." value="05\/07\/1992">$/;"	function	line:50
+label	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <label for="phone no.">Phone No.<\/label>$/;"	function	line:51
+input	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <input type="text" id="phone" name="phone no." value="7799829501">$/;"	function	line:52
+input	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <input class="myButton" type="submit" name="submit">$/;"	function	line:53
+a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <a href="#" class="myButton">green<\/a>$/;"	function	line:55
+p	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <p id="rcorners6"><\/p>$/;"	function	line:57
+audio	/home/laxmi/Desktop/Website/html/drpdwn.html	/^    <audio controls>$/;"	function	line:61
+source	/home/laxmi/Desktop/Website/html/drpdwn.html	/^  <source src="http:\/\/f23.wapka-files.com\/download\/5\/c\/2\/2252994_5c2676817cac8140eb3d3015.mp3\/73ccd9bdaf0645468306\/Jag%2BGhoomeya%2B%28320kbps%29%2B-%2BRahat%2BFateh%2Bali%2BKhan.mp3" type="audio\/mp3">$/;"	function	line:62
+source	/home/laxmi/Desktop/Website/html/drpdwn.html	/^  <source src="horse.mp3" type="audio\/mpeg">$/;"	function	line:63
