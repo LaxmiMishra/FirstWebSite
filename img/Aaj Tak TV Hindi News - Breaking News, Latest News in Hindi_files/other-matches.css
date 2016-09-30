@@ -1,0 +1,89 @@
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+.si-clr {clear: both;display: block;line-height: 0;}
+
+body {font-family: "Arial",Helvetica,sans-serif;font-size: 12px;line-height: 16px;}
+
+
+/*jScrollPane Bar*/
+.jspScrollable .jspPane{margin-right:15px;}
+.jspTrack{position: relative; cursor:default;}
+.jspDrag{ position: relative; top:0;left:0px; _left:1px; cursor: pointer; width:8px;}
+.jspContainer{overflow: hidden; position: relative;}
+.jspPane{position: absolute;overflow: auto; position:relative!important; margin-right:0px;}
+.jspVerticalBar{position: absolute;top: 0px;right: 3px;width: 8px; z-index:999;}
+.jspVerticalBar *{margin: 0;padding: 0;}
+.jspCap{display:block;height:5px;}
+.jspArrow{background-color: #50506d;text-indent: -20000;display: block;cursor: pointer;}
+.jspArrow.jspDisabled{cursor: default;}
+.jspVerticalBar .jspArrow{height: 16px;}
+.jspVerticalBar .jspArrow:focus{outline: none;}
+.jspCorner{background-color: #eeeef4; float: left;height: 100%;}
+* html .jspCorner{margin: 0 -3px 0 0;}
+
+/*scrollbar color css*/
+.jspTrack {background:#DDDFDE; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius: 3px;}
+.jspDrag {background: #626B70; border-radius:3px;-moz-border-radius:3px;-webkit-border-radius: 3px;}
+
+@font-face {font-family: 'oswaldbold';src: url('../fonts/oswald-bold-webfont.eot');src: url('../fonts/oswald-bold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/oswald-bold-webfont.woff') format('woff'),url('../fonts/oswald-bold-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+/*@font-face {font-family: 'oswaldlight';src: url('../fonts/oswald-light-webfont.eot');src: url('../fonts/oswald-light-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/oswald-light-webfont.woff') format('woff'),url('../fonts/oswald-light-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}*/
+@font-face {font-family: 'oswaldregular';src: url('../fonts/oswald-regular-webfont.eot');src: url('../fonts/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/oswald-regular-webfont.woff') format('woff'),url('../fonts/oswald-regular-webfont.ttf') format('truetype');font-weight: normal;font-style: normal;}
+
+.si-header, .si-livedv, .si-tabcnt, .si-extranscr, .si-livedv2, .si-prtshplft, .si-commhd, .si-marq, .si-commlft, .si-commrgt h2, .si-holder, .si-countdnhd, .si-smhrgt, .si-rgtgrph, .si-tmgidlft, .si-tmgidrgt, .si-guiderHd div, .si-othermh, .si-topBblft, .si-topBbrgt, .si-manhatnHd, .si-ppHdpos, .si-perfomHd div, .si-sbd, .si-thismtch, .si-grphara2, .si-extranscr strong, .si-popspidy, .si-manhattangraph, .as-Cavg span, .si-csRRgtt span:first-child,.si-OthermTb,.si-OthermNomtch div{
+font-family: 'oswaldregular';
+}
+.si-livedvmid div.si-fleft span:first-child,.si-extranscr .si-fright span,.si-prtshpscr,.si-dgtwrp,.si-grphrn,.si-fdDt,.si-vgrpBlft div,.si-liveRr,.si-centertd,.si-fowbg span:first-child,.si-bGrphBRW,.si-ppHdnm,.si-tmwkts,.si-tmEr1,.si-tmEr2,.si-commno,.si-h2hnum, .si-csHd,.si-csTbBtn,.si-csMid div,.si-csTime,.si-csFt a{font-family: 'oswaldbold';}
+.si-csMid > div span:nth-child(2) {font-size: 13px;margin-right: 5px; line-height: 20px; }
+
+.si-OthermCon {background: url("images/fixtureBg.png") repeat-x scroll 0 0 #F3F3F3;height: 115px;}
+.si-Othermconara {height: 242px; position:relative;}
+.si-OthermTb {overflow: hidden; height:42px;}
+.si-OthermTb div.si-active{background-color: #007CC2;color: #FFFFFF;}
+.si-OthermTb div {background-color: #DEDEDE;color: #333333;cursor: pointer;float: left;font-size: 14px;height: 40px;line-height: 40px;position: relative;text-align: center;text-transform: uppercase;box-sizing:border-box; -moz-box-sizing:border-box; width:33.1%}
+.si-OtherCommLft div:first-child { color: #626B70;}
+.si-OtherCommLft div {overflow: hidden;}
+.si-OthermNomtch div {color: #333333;font-size: 30px;height: 80px;line-height: 30px;margin: 49px auto;text-align: center;width: 230px; font-size:18px;}
+.si-OthrTm {color: #222222;float: left;font-size: 16px;line-height: 20px;overflow: hidden;width: 100%; min-height:25px; max-height:40px;}
+.si-OthermTb div:first-child {width: 32.6%;}
+.si-Othermconara{ padding:0px;}
+.si-OthrBtBy {color: #626B70;font-family: Arial,Helvetica,sans-serif;}
+.si-OtherCommLft, .si-OtherCommRgt {width: 100%;}
+.si-fright {float: right;}
+.si-fleft {float: left;}
+.si-OtherCommBtn {color: #FFFFFF;cursor: pointer;font-size: 14px;height: 26px;line-height:26px;margin: 2px auto auto;text-align: center;width:96px;background-image: url("images/sprit.png"); background-repeat: no-repeat;background-position:-4px -323px; border-radius:5px; -moz-border-radius: 5px; -webkit-border-radius:5px;}
+.si-OtherComm .si-series-name {color: #626B70;display: block !important;float: right;font-family: Arial,Helvetica,sans-serif;font-size: 11px;font-weight: bold;line-height: 13px;margin-top: 4px;width: 100%;}
+.si-OtherComm {overflow: hidden;padding: 15px 5px;text-transform: uppercase;}
+.si-noBorder {border: medium none !important;}
+.si-OthrStd {color: #626B70;display: inline-block;width: 100%;}
+.si-OtherCommRgt .si-OtherCommGmt {color: #626B70;/*padding-top: 10px;*/text-align: center;}
+.si-OthermNomtch{ overflow:hidden;}
+.jspPane .si-OtherComm{ border-top:1px solid #666;}
+.si-OtherCommLft{width:100%!important; padding-bottom:10px;}
+
+
+/*Cricket Score*/
+.si-schwrp{ background:#fff; height:160px; width:300px; color:#333333;}
+.si-csHd{ background:#50514B; color:#fff; padding:5px; text-transform:uppercase;}
+.si-csTbCnt{ height:190px;}
+.si-csTbCntRow{ border-bottom:1px solid #C3C1B4; padding:2px 5px;text-transform:uppercase; background:url("images/tabbg.jpg") repeat-x scroll 0 0 #EFEFEF;}
+.si-csRRgtt{ float:right; text-align:center; padding:3px 14px 3px 0; background:#fff; border-radius:5px; width:80px;}
+.si-csRLft{ float:left; width:160px;}
+/*.si-csMid div,.si-csMid span{ float:left;}*/
+.si-csMid span img{ margin-right:5px;}
+.si-csVs{ margin:0px 7px 0 0;}
+.si-csMid{ overflow:hidden;}
+/*	Change log: 11, Feb 2015	*/
+.si-csMid > div {display: inline-block;}
+.si-csBot{ text-transform:capitalize;}
+.si-csFt{ text-align:left; line-height:20px; position:absolute; right:0px; bottom:-10px; font-size:11px}
+.si-nowhitebg{ background:none;}
+.si-csFt a{ color:#333; text-decoration:none;background:url("images/Gulfnews.png") no-repeat scroll 0 4px transparent;  width:82px; text-indent:-999px; display:inline-block; }
+.si-scheduletabs{ border:0px;}
+.si-OthermTb div{ height:33px; line-height:34px; position:relative;}
+.si-OthermTb div{ background:#DEDEDE; width:33.7%;}
+.si-OthermTb div.si-active{ background:#D00B26;}
+.si-OthermTb div.si-active span.active-arrow {border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #d00b26; bottom: -5px; left: 50%; margin-left: -4px; position: absolute; }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.si-schwrp{ width:auto;}	
+	
+}

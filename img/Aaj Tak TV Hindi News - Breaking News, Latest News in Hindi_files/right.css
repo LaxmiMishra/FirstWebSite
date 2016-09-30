@@ -1,0 +1,43 @@
+*{ padding:0px; margin:0px; outline: none}
+
+.rightSec{ margin:0  auto; width:300px;}
+
+.liveNewSec{ float: left; width:100%;border:1px solid #e7e5e6; background:#f4f4f4; border-radius:5px; box-sizing: border-box;}
+.liveNewTxt{ background:#d0d0d0; border-radius:5px; height:35px;margin-bottom:3px}
+.liveNewTxt span.livetxtLeft{ background:#000; font:bold 20px/35px Mangal; float: left; color:#fff; display: inline-block; height:35px; width:64px; border-radius:5px 0 0 0; text-align: center}
+.liveNewTxt span.livetxtLeft a{ color:#fff; text-decoration: none;font-family: Arial, Helvetica, sans-serif; -webkit-animation-name: liveblink;-webkit-animation-duration: 1s;animation-name: liveblink; animation-duration: 1s; text-decoration:none; animation-iteration-count: infinite;}
+.liveNewTxt h2{ font:bold 20px/35px Mangal; float: left; text-decoration: none; color:#000; text-align: left; width:230px; box-sizing: border-box; padding-left:13px}
+.liveNewTxt h2 a{ color:#000; display: block; text-decoration: none;font-family:"Mangal";}
+.liveListNews{ padding:12px 5px 5px; box-sizing: border-box; height:196px; overflow: hidden}
+.liveListNews li{ list-style: none; float: left; border:1px solid #e1e1e1; background:#fff; padding:5px; box-sizing: border-box; width:100%; margin-bottom:10px}
+.liveListNews li:last-child{ margin-bottom:0px;}
+.liveListNews li h3{ font:15px/20px Mangal; color:#000}
+.liveListNews li h3 span{ color:#c20a12; font:bold 13px/18px Arial, Helvetica, sans-serif; padding-right:10px}
+.newsSocialIcons{ float: left; width:125px; display: block; box-sizing: border-box; padding-left:8px; margin-top:6px}
+.newsSocialIconsRight{ float: right; width:130px; margin-top:7px}
+
+.newsSocialIcons a img{ margin-right:15px}
+#container2 .mCSB_container { margin-right: 15px;}
+#container2 .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail{ background: e3e1e1}
+#container2 .mCS-dark-3.mCSB_scrollTools .mCSB_draggerRail, .mCS-light-3.mCSB_scrollTools .mCSB_draggerRail{ background: e3e1e1; width:8px}
+#container2 .mCSB_scrollTools .mCSB_draggerRail{ background:#dcdcdc;}
+#container2 .mCS-dark-3.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background:url(../images/livescroll.png) no-repeat}
+#container2 .mCSB_scrollTools .mCSB_buttonUp{ display: block; position: absolute; height: 20px; width: 100%; overflow: hidden;  margin: 0 auto; cursor: pointer;  background:url(http://media2.intoday.in/indiatoday/world-t20-2016/images/scrollBtn.png) no-repeat 3px 7px}
+#container2 .mCSB_scrollTools{ width:9px;}
+
+.newsSocialIconsRight .thumbup, .newsSocialIconsRight .thumbdown { background-image: url(../images/thumbimg.png); background-repeat: no-repeat;
+    display: inline-block; height: 19px; margin-right: 5px; text-indent: -9999px; width: 19px;float: left}
+.newsSocialIconsRight span { color: #c30000; display: block; float: left; font: 12px/18px arial; margin-right: 2px; text-align: left;}
+.newsSocialIconsRight .countsgreen {color: #006600; margin-left: 4px; margin-right: 12px;}
+.newsSocialIconsRight .countsred { color: #c30000; margin-left: 4px; margin-right: 12px;}
+.newsSocialIconsRight .thumbdown { background-position: -33px 0px;}
+.newsSocialIconsRight .thumbup{ background-position:0px 0px;}
+@-webkit-keyframes liveblink {
+    from {color: #fff;}
+    to {color: #FF0000;}
+}
+
+@keyframes liveblink {
+    from {color: #fff;}
+    to {color: #FF0000;}
+}

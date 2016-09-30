@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0064)http://indiatoday.intoday.in/rss/latest-news-from-indiatoday.jsp -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="./beacon.js"></script><script type="text/javascript">
+  var _comscore = _comscore || [];
+  _comscore.push({ c1: "2", c2: "8549097" });
+  (function() {
+    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+    el.parentNode.insertBefore(s, el);
+  })();
+</script>
+<noscript>
+  &lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=8549097&amp;cv=2.0&amp;cj=1" /&gt;
+</noscript>
+
+<title>Latest Stories From Indiatoday</title>
+<script type="text/javascript" src="./jquery-2.1.4.min.js"></script>
+<script>
+$(document).ready(function(e) {
+		var len = $('.vslider  > ul > li').length;
+		var wd = $('.vslider  > ul > li').width()+18;
+		var counter = 1;
+		$('#_1').addClass('active');
+		var tot_widh = len * wd 
+		$('.vslider > ul').css('width',tot_widh);
+		$('.vslider  > ul > li').eq(0).addClass('slideractive');
+	$('.autoslider-nav a').click(function(){
+		$('.vslider  > ul > li').removeClass('slideractive');
+		var current = $(this).index();
+		$('.vslider  > ul > li').eq(current).addClass('slideractive');
+		$('.autoslider-nav a').removeClass('active');
+		$(this).addClass('active');
+		switch(current){
+			case 0 :{
+				$(".vslider > ul").animate({left:0});
+				counter = 1;
+				}
+				 break;
+			case 1 :{
+				$(".vslider > ul").animate({left: -wd*1});
+				counter = 2;
+				}
+				 break;
+			case 2 :{
+				$(".vslider > ul").animate({left: -wd*2});
+				counter = 3;
+				}
+			   break;			
+			 case 3 :{
+				$(".vslider > ul").animate({left: -wd*3});
+				counter = 4;
+				}
+			   break;			
+			 case 4 :{
+				$(".vslider > ul").animate({left:-wd*4});
+				counter = 5;
+				}
+				break;			
+			 case 5 :{
+				$(".vslider > ul").animate({left:-wd*5});
+				counter = 6;
+				}
+				break;			
+			 case 6 :{
+				$(".vslider > ul").animate({left:-wd*6});
+				counter = 7;
+				}
+				break;			
+			 case 7 :{
+				$(".vslider > ul").animate({left:-wd*7});
+				counter = 8;
+				}
+				break;			
+			 case 8 :{
+				$(".vslider > ul").animate({left:-wd*8});
+				counter = 9;
+				}
+				break;			
+			 case 9 :{
+				$(".vslider > ul").animate({left:-wd*9});
+				counter = 10;
+				}
+				break;			
+			 case 10 :{
+				$(".vslider > ul").animate({left:-wd*10});
+				counter = 11;
+				}
+		}
+		})
+		var autoslides = setInterval(autoslide, 2000);
+		function autoslide(){
+			$('.autoslider-nav a').removeClass('active');
+			if (counter == len)
+			{	
+				$('.next_arrow').hide();
+				$(".vslider > ul").animate({
+						left: '0px'
+					});
+					counter = 1;
+					$('.vslider > ul > li').removeClass('active');
+					$('#_' + counter).addClass('active');
+			}else
+			{
+				$('.next_arrow').show();
+				$(".vslider > ul").animate({
+						left: '-='+wd
+					}, 1000)
+				counter += 1;
+				$('.vslider > ul > li').removeClass('active');
+				$('#_' + counter).addClass('active');
+				$('.prev_arrow').show();
+			}
+	} 
+			$('.next_arrow').click(function(){
+			$('.autoslider-nav a').removeClass('active');
+			if (counter <= len-1)
+			{	
+				$(".vslider > ul").animate({
+						left: '-='+wd
+					}, 1000)
+					counter +=1;
+					$('.vslider > ul > li').removeClass('active');
+					$('#_' + counter).addClass('active');
+					$('.prev_arrow').show();
+					
+			}else
+			{
+				$(this).hide();
+				$('.vslider > ul > li').removeClass('active');
+				$('#_' + counter).addClass('active');
+			}
+			})
+			$('.prev_arrow').click(function(){
+			$('.autoslider-nav a').removeClass('active');
+			if (counter == 1)
+			{	
+				$(this).hide();
+				$('.vslider > ul > li').removeClass('active');
+				$('#_' + counter).addClass('active');
+					
+			}else
+			
+			{
+					$('.next_arrow').show();
+					$(".vslider > ul").animate({
+						left: '+=' +wd
+					}, 1000)
+					counter -=1;
+					$('.vslider > ul > li').removeClass('active');
+					$('#_' + counter).addClass('active');
+			}
+			})
+
+	$('.vslider > ul').mouseenter(function(){
+		clearInterval(autoslides);
+	});
+	
+	$('.vslider > ul').mouseleave(function(){
+		autoslides = setInterval(autoslide, 5000);
+	});
+	});
+</script>
+
+<style>
+*{padding:0; margin:0;}
+#slide_area{float:left; width:308px; border:1px solid #e7e7e7; position:relative; height:120px;}
+#slide_area h2{background-color:#d01d20; display:block; font:19px/35px Arial, Helvetica, sans-serif; color:#fff; height:35px; padding:0 0 0 14px; text-transform:uppercase;}
+#slide_area .vslider{float:left; width:308px; position:relative; overflow:hidden;}
+#slide_area .vslider ul{list-style:none; margin:0; padding:9px 0; position:relative; overflow:hidden;}
+#slide_area .vslider ul li{width:290px; float:left; padding:0 5px 0 13px;}
+#slide_area .vslider ul li .img_area{width:88px; float:left;}
+#slide_area .vslider ul li .content_area{width:191px; float:left; padding-left:10px; font:bold 13px/18px Arial, Helvetica, sans-serif; color:#080806;}
+#slide_area .vslider ul li .content_area a{color:#080806; text-decoration:none; height:54px; overflow:hidden; display:block;}
+.autoslider-nav{position:absolute; bottom:10%; right:37%;}
+.autoslider-nav a{background:url(http://media2.intoday.in/businesstoday/resources/css/images/dot.gif) no-repeat 0 0; height:5px; width:5px; text-indent:-999px; margin-right:3px; float:left;}
+.autoslider-nav a.active{background-position:0 bottom;}
+.img_area a img{width:88px; height:66px;}
+</style>
+</head>
+<body>
+<div id="slide_area">
+  <h2>Latest from <strong>India today</strong></h2>
+  <div class="vslider">
+  <ul style="width: 3080px; left: -1247.28px;">
+  			
+	 <li class="slideractive">
+      <div class="img_area"><a target="_blank" href="http://indiatoday.intoday.in/story/woman-lawyer-accuses-congress-mp-of-rape/1/774618.html" title="Woman" lawyer="" accuses="" congress="" rajya="" sabha="" mp="" of="" rape,="" police="" file="" complaint=""><img src="./rape1_88_092716071721.jpg" alt="Woman raped" title="Woman raped"></a> </div>
+      <div class="content_area"><a target="_blank" href="http://indiatoday.intoday.in/story/woman-lawyer-accuses-congress-mp-of-rape/1/774618.html" title="Woman" lawyer="" accuses="" congress="" rajya="" sabha="" mp="" of="" rape,="" police="" file="" complaint="">Woman lawyer accuses Congress Rajya Sabha MP of rape, police file complaint </a></div>
+  	</li>	
+					
+	 <li>
+      <div class="img_area"><a target="_blank" href="http://indiatoday.intoday.in/story/india-can-put-bounty-on-terrorists/1/774517.html" title="From" saeed="" to="" salahuddin,="" india="" should="" put="" a="" bounty="" on="" terrorists="" in="" pakistan:="" ex-raw="" officer=""><img src="./masood-story_88_092716054630.jpg" alt="Maulana Masood Azhar" title="Maulana Masood Azhar"></a> </div>
+      <div class="content_area"><a target="_blank" href="http://indiatoday.intoday.in/story/india-can-put-bounty-on-terrorists/1/774517.html" title="From" saeed="" to="" salahuddin,="" india="" should="" put="" a="" bounty="" on="" terrorists="" in="" pakistan:="" ex-raw="" officer="">From Saeed to Salahuddin, India should put a bounty on terrorists in Pakistan: Ex-RAW officer</a></div>
+  	</li>	
+					
+	 <li>
+      <div class="img_area"><a target="_blank" href="http://indiatoday.intoday.in/story/after-uri-bsf-may-get-air-wing/1/774365.html" title="BSF" may="" get="" its="" own="" air="" wing="" to="" prevent="" another="" uri-like="" terror="" attack=""><img src="./loc_88_092716040111.jpg" alt="LoC" title="LoC"></a> </div>
+      <div class="content_area"><a target="_blank" href="http://indiatoday.intoday.in/story/after-uri-bsf-may-get-air-wing/1/774365.html" title="BSF" may="" get="" its="" own="" air="" wing="" to="" prevent="" another="" uri-like="" terror="" attack="">BSF may get its own air wing to prevent another Uri-like terror attack</a></div>
+  	</li>	
+					
+	 <li>
+      <div class="img_area"><a target="_blank" href="http://indiatoday.intoday.in/story/pakistan-india-indus-water-treaty-narendra-modi-nawaz-sharif/1/774310.html" title="Pakistan" says="" india="" can't="" suspend="" indus="" waters="" treaty="" unilaterally=""><img src="./sharif,-modi_88_092716030432.jpg" alt="Nawaz Sharif and Narendra Modi" title="Nawaz Sharif and Narendra Modi"></a> </div>
+      <div class="content_area"><a target="_blank" href="http://indiatoday.intoday.in/story/pakistan-india-indus-water-treaty-narendra-modi-nawaz-sharif/1/774310.html" title="Pakistan" says="" india="" can't="" suspend="" indus="" waters="" treaty="" unilaterally="">Pakistan says India can't suspend Indus Waters Treaty unilaterally</a></div>
+  	</li>	
+					
+	 <li>
+      <div class="img_area"><a target="_blank" href="http://indiatoday.intoday.in/story/delhi-nangloi-school-teacher-stabbed-class-12-students/1/774255.html" title="Two" class="" 12="" students="" arrested="" for="" murder="" of="" govt="" school="" teacher="" in="" nangloi=""><img src="./murder3_88_092716015914.jpg" alt="Picture for representation" title="Picture for representation"></a> </div>
+      <div class="content_area"><a target="_blank" href="http://indiatoday.intoday.in/story/delhi-nangloi-school-teacher-stabbed-class-12-students/1/774255.html" title="Two" class="" 12="" students="" arrested="" for="" murder="" of="" govt="" school="" teacher="" in="" nangloi="">Two Class 12 students arrested for murder of govt school teacher in Nangloi</a></div>
+  	</li>	
+					
+	 <li>
+      <div class="img_area"><a target="_blank" href="http://indiatoday.intoday.in/story/india-china-terror-dialogue-pakistan/1/774204.html" title="India" holds="" key="" counter-terror="" dialogue="" with="" china="" amid="" tensions="" pakistan=""><img src="./india-china_88_092716010552.jpg" alt="Picture for representation" title="Picture for representation"></a> </div>
+      <div class="content_area"><a target="_blank" href="http://indiatoday.intoday.in/story/india-china-terror-dialogue-pakistan/1/774204.html" title="India" holds="" key="" counter-terror="" dialogue="" with="" china="" amid="" tensions="" pakistan="">India holds key counter-terror dialogue with China amid tensions with Pakistan</a></div>
+  	</li>	
+					
+	 <li>
+      <div class="img_area"><a target="_blank" href="http://indiatoday.intoday.in/story/sushma-swaraj-unga-speech-pakistan-terrorism/1/774180.html" title="Pakistan" must="" act="" against="" terror="" groups="" targeting="" its="" neighbours:="" us=""><img src="./us-pakistan-story_88_092716011823.jpg" alt="Mark Toner" title="Mark Toner"></a> </div>
+      <div class="content_area"><a target="_blank" href="http://indiatoday.intoday.in/story/sushma-swaraj-unga-speech-pakistan-terrorism/1/774180.html" title="Pakistan" must="" act="" against="" terror="" groups="" targeting="" its="" neighbours:="" us="">Pakistan must act against terror groups targeting its neighbours: US</a></div>
+  	</li>	
+					
+	 <li>
+      <div class="img_area"><a target="_blank" href="http://indiatoday.intoday.in/story/indian-origin-lawyer-goes-on-shooting-spree-in-us/1/774137.html" title="Houston" shooter="" killed="" by="" police="" was="" indian-origin="" lawyer=""><img src="./bullet-story_88_092716111632.jpg" alt="Shooting spree" title="Shooting spree"></a> </div>
+      <div class="content_area"><a target="_blank" href="http://indiatoday.intoday.in/story/indian-origin-lawyer-goes-on-shooting-spree-in-us/1/774137.html" title="Houston" shooter="" killed="" by="" police="" was="" indian-origin="" lawyer="">Houston shooter killed by police was Indian-origin lawyer </a></div>
+  	</li>	
+					
+	 <li>
+      <div class="img_area"><a target="_blank" href="http://indiatoday.intoday.in/story/bk-bansal-son-commit-suicide-delhi-residence/1/774125.html" title="Ex-bureaucrat," arrested="" for="" graft,="" commits="" suicide="" with="" son;="" wife,="" daughter="" had="" hanged="" themselves="" in="" july=""><img src="./b_092716110822.jpg" alt="BK Bansal" title="BK Bansal"></a> </div>
+      <div class="content_area"><a target="_blank" href="http://indiatoday.intoday.in/story/bk-bansal-son-commit-suicide-delhi-residence/1/774125.html" title="Ex-bureaucrat," arrested="" for="" graft,="" commits="" suicide="" with="" son;="" wife,="" daughter="" had="" hanged="" themselves="" in="" july="">Ex-bureaucrat, arrested for graft, commits suicide with son; wife, daughter had hanged themselves in July</a></div>
+  	</li>	
+					
+	 <li>
+      <div class="img_area"><a target="_blank" href="http://indiatoday.intoday.in/story/chennai-sexual-assault-ola-women-safety/1/774114.html" title="Chennai:" woman="" doctor="" narrowly="" escapes="" sexual="" assault="" by="" ola="" driver=""><img src="./sexual-assault-story_88_092716101957.jpg" alt="Picture for representation" title="Picture for representation"></a> </div>
+      <div class="content_area"><a target="_blank" href="http://indiatoday.intoday.in/story/chennai-sexual-assault-ola-women-safety/1/774114.html" title="Chennai:" woman="" doctor="" narrowly="" escapes="" sexual="" assault="" by="" ola="" driver="">Chennai: Woman doctor narrowly escapes sexual assault by Ola driver</a></div>
+  	</li>	
+		  
+  </ul>
+  <div class="autoslider-nav"> 
+    
+  <a href="javascript:void(0);" id="_1" class="">1</a>
+	  
+  <a href="javascript:void(0);" id="_2" class="">2</a>
+	  
+  <a href="javascript:void(0);" id="_3" class="">3</a>
+	  
+  <a href="javascript:void(0);" id="_4" class="">4</a>
+	  
+  <a href="javascript:void(0);" id="_5" class="">5</a>
+	  
+  <a href="javascript:void(0);" id="_6" class="active">6</a>
+	  
+  <a href="javascript:void(0);" id="_7" class="">7</a>
+	  
+  <a href="javascript:void(0);" id="_8" class="">8</a>
+	  
+  <a href="javascript:void(0);" id="_9" class="">9</a>
+	  
+  <a href="javascript:void(0);" id="_10" class="">10</a>
+	
+  </div>
+  </div>
+</div>
+
+
+</body></html>

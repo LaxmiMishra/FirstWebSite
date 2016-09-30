@@ -1,0 +1,167 @@
+/*******Connect with aajtak (Start)***********/
+.rediff_con, .google_con, .twitter_con, .facebook_con, .feed_con, .sms_con, .mobile_con, .livetv_con, .andriod_con, .apple_con, .nokia_con, .bb_con, .windows_con, .samsung_con, .pinterest_con, .sapce-line {
+    background-image: url("../images/AT-social-icon-sprites.png");
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 45px;
+    width: 50px;
+}
+
+.facebook_con {
+    background-position: -5px -67px;
+}
+
+.twitter_con {
+    background-position: -72px -67px;
+}
+
+.google_con {
+    background-position: -140px -67px;
+}
+
+.rediff_con {
+    background-position: -210px -67px;
+}
+.feed_con {
+    background-position: -279px -67px;
+}
+
+.sms_con {
+    background-position: -348px -67px;
+	cursor: pointer;
+}
+.mobile_con {
+    background-position: -415px -67px;
+	cursor: pointer;
+}
+.livetv_con {
+    background-position: -485px -67px;
+}
+
+.andriod_con {
+    background-position: -554px -67px;
+}
+
+.apple_con {
+    background-position: -621px -67px;
+}
+
+.nokia_con {
+    background-position: -690px -67px;
+}
+
+.bb_con {
+    background-position: -761px -67px;
+}
+
+.windows_con {
+    background-position: -826px -67px;
+}
+
+.samsung_con {
+    background-position: -894px -67px;
+}
+.pinterest_con {
+    background-position: -656px -122px;
+}
+
+.itconnect_links {
+    background-image: none !important;
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    float: none;
+    height: 55px;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+    width: 90%;
+	border-top: 1px solid #AFAFAF;
+}
+
+.itconnect_links li {
+    float: none !important;
+    list-style-type: none;
+    margin-right: 0;
+}
+
+
+.connect_container {
+    clear: both;
+    width: 100%;
+    /*height: 116px;*/
+    float: left;
+	position: relative;
+}
+
+.connect_text {
+    clear: both;
+    width: 100%;
+    margin-left: -1px;
+}
+
+.connect_spacer {
+    clear: both;
+    width: 100%;
+    height: 19px;
+}
+
+.connect_link_box {
+    clear: both;
+    width: 100%;
+    float: left;
+}
+.connect_text strong {
+    background-color: black;
+    display: inline-block;
+    color: white;
+    line-height: 24px;
+    font: bold 14px/24px Arial;
+    float: left;
+}
+
+.large-connect .sapce-line {
+    background-position: -819px -120px;
+    float: left;
+    height: 45px;
+    margin: 0 9px 0 10px;
+    width: 2px;
+}
+
+/*******Connect with India Today (End)***********/
+
+
+
+
+/***********************************************************/
+			/** Social Popup (start) **/
+/***********************************************************/
+.social-popup-larg { position: absolute; display: none; z-index: 9999; /* top: 50px; left: 30%; */ }
+
+.social-popup-larg .padded15 {padding: 15px;}
+
+.social-popup-larg .popup-top, .social-popup-larg .popup-bottom, .social-popup-larg .close-social-popup-larg, .social-popup-larg .sms52424 {
+background-image: url(../images/Social-band-at-bottom_sprites.png);background-repeat: no-repeat;}
+
+
+.social-popup-larg a.close-social-popup-larg {width: 22px;height: 22px;background-position: -111px -81px; position: absolute; top: -10px;right: -5px;text-decoration: none;text-indent: -11110px;}
+.txt-phone-popup{font: 14px/20px arial;text-align: center;}
+.social-popup-larg .sms52424 {float: left;width: 70px;height: 85px;background-position: -37px -80px; margin-left: 155px;}
+.social-popup-larg .sms51424-text { float: right; width: 175px; font: normal 14px/17px Arial-Black; color: #535353; }
+.social-popup-larg .clearfx { clear: both;}
+.social-popup-larg .red-color {color: #ef1820;}
+
+#sms-popup-larg{bottom: 57px; left: 295px; }
+#phone-popup-larg{bottom: 57px; left: 425px;}
+
+#sms-popup-larg .popup-top {width: 413px; height: 11px;background-position: -45px -10px;position: relative;}
+#sms-popup-larg .popup-center { width: 411px; border-left: 1px solid #000000; border-right: 1px solid #000000; background-color: #fff;}
+#sms-popup-larg .popup-bottom {width: 413px;height: 32px;background-position: -45px -33px;}
+
+#phone-popup-larg .popup-top {width: 294px; height: 11px;background-position: -164px -81px;position: relative;}
+#phone-popup-larg .popup-center { 	width: 292px; border-left: 1px solid #000000; border-right: 1px solid #000000; background-color: #fff;}
+#phone-popup-larg .popup-bottom {width: 294px;height: 27px;background-position: -164px -102px;}
+
+/***********************************************************/
+			/** Social Popup (End) **/
+/***********************************************************/

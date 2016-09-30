@@ -1,0 +1,1 @@
+crtg_content = ''; (function(){document.cookie = 'crtg_rta=' + escape(crtg_content) + '; path=/; expires=Thu, 27 Oct 2016 19:32:19 GMT; domain=intoday.in';})();
