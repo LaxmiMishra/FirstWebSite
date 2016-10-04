@@ -4,49 +4,173 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-html	/home/laxmi/Desktop/Website/html/drpdwn.html	/^<html>$/;"	function	line:2
-head	/home/laxmi/Desktop/Website/html/drpdwn.html	/^<head>$/;"	function	line:3
-title	/home/laxmi/Desktop/Website/html/drpdwn.html	/^    <title>Drop Down Content Example<\/title>$/;"	function	line:4
-link	/home/laxmi/Desktop/Website/html/drpdwn.html	/^    <link rel="stylesheet" type="text\/css" href="\/home\/laxmi\/Desktop\/Website\/css\/style.css">$/;"	function	line:6
-body	/home/laxmi/Desktop/Website/html/drpdwn.html	/^<body style="background-color:black">$/;"	function	line:9
-div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^    <div class="header border">$/;"	function	line:10
-div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <div class="mydivLeft">$/;"	function	line:11
-button	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <button class="button">Vegeterian dishes<\/button>$/;"	function	line:12
-div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^              <div class="dropdown-content">$/;"	function	line:13
-a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <a href="#">Gobhi Manchurian<\/a>$/;"	function	line:14
-a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <a href="#">Malai Kofta<\/a>$/;"	function	line:15
-a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <a href="#">kadhai Paneer<\/a>$/;"	function	line:16
-div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <div class="img-header border">$/;"	function	line:19
-img	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <img src="\/home\/laxmi\/Desktop\/Website\/img\/images.jpg" alt="flower" width="100" height="80">$/;"	function	line:20
-div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <div class="dropdown-content">$/;"	function	line:21
-img	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <img src="\/home\/laxmi\/Desktop\/Website\/img\/images.jpg" alt="flower" width="300" height="200">$/;"	function	line:22
-div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <div class="caption">Beautiful Trolltunga, Norway<\/div>$/;"	function	line:23
-div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <div class="mydivRight">$/;"	function	line:26
-button	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <button class="button">Non veg dishes<\/button>$/;"	function	line:27
-div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <div class="dropdown-content">$/;"	function	line:28
-a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <a href="#">Non vage Manchurian<\/a>$/;"	function	line:29
-a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <a href="#">Noob veg Malai Kofta<\/a>$/;"	function	line:30
-a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <a href="#">non veg kadhai Paneer<\/a>$/;"	function	line:31
-div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <div class="imgdiv">$/;"	function	line:34
-img	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <img id="home" src="\/home\/laxmi\/Desktop\/Website\/img\/house.jpg" alt="dgdf">$/;"	function	line:35
-br	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <br>$/;"	function	line:36
-br	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <br>$/;"	function	line:37
-img	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <img id="next" src="\/home\/laxmi\/Desktop\/Website\/img\/images.jpg" alt="gfxgcf">$/;"	function	line:38
-div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <div class="tooltip-div">Hover over me$/;"	function	line:40
-span	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <span class="btn">Tooltip text<\/span>$/;"	function	line:41
-div	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <div class="form">$/;"	function	line:43
-form	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <form action="#">$/;"	function	line:44
-label	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <label for="fname">First Name<\/label>$/;"	function	line:45
-input	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <input type="text" id="fname" name="fname" value="Laxmi">$/;"	function	line:46
-label	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <label for="lname">Last Name<\/label>$/;"	function	line:47
-input	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <input type="text" id="lname" name="lname" value="Mishra">$/;"	function	line:48
-label	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <label for="D.O.B.">D.O.B.<\/label>$/;"	function	line:49
-input	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <input type="text" id="D.O.B." name="D.O.B." value="05\/07\/1992">$/;"	function	line:50
-label	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <label for="phone no.">Phone No.<\/label>$/;"	function	line:51
-input	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <input type="text" id="phone" name="phone no." value="7799829501">$/;"	function	line:52
-input	/home/laxmi/Desktop/Website/html/drpdwn.html	/^                <input class="myButton" type="submit" name="submit">$/;"	function	line:53
-a	/home/laxmi/Desktop/Website/html/drpdwn.html	/^            <a href="#" class="myButton">green<\/a>$/;"	function	line:55
-p	/home/laxmi/Desktop/Website/html/drpdwn.html	/^        <p id="rcorners6"><\/p>$/;"	function	line:57
-audio	/home/laxmi/Desktop/Website/html/drpdwn.html	/^    <audio controls>$/;"	function	line:61
-source	/home/laxmi/Desktop/Website/html/drpdwn.html	/^  <source src="http:\/\/f23.wapka-files.com\/download\/5\/c\/2\/2252994_5c2676817cac8140eb3d3015.mp3\/73ccd9bdaf0645468306\/Jag%2BGhoomeya%2B%28320kbps%29%2B-%2BRahat%2BFateh%2Bali%2BKhan.mp3" type="audio\/mp3">$/;"	function	line:62
-source	/home/laxmi/Desktop/Website/html/drpdwn.html	/^  <source src="horse.mp3" type="audio\/mpeg">$/;"	function	line:63
+html	/home/laxmi/Desktop/Website/html/aajtak.html	/^<html>$/;"	function	line:2
+head	/home/laxmi/Desktop/Website/html/aajtak.html	/^<head>$/;"	function	line:4
+title	/home/laxmi/Desktop/Website/html/aajtak.html	/^    <title>"aaj tak" news channel<\/title>$/;"	function	line:5
+link	/home/laxmi/Desktop/Website/html/aajtak.html	/^    <link rel="stylesheet" type="text\/css" href="\/home\/laxmi\/Desktop\/Website\/css\/aajtak.css">$/;"	function	line:6
+body	/home/laxmi/Desktop/Website/html/aajtak.html	/^<body>$/;"	function	line:9
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^    <div class="header">$/;"	function	line:10
+h	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <h1>Mangalwar,27 September2016 15:29 IST<\/h1>$/;"	function	line:11
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div><img class="img" src="\/home\/laxmi\/Desktop\/Website\/img\/aajtak3.jpg" alt="car image"><\/div>$/;"	function	line:12
+ul	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <ul>$/;"	function	line:13
+li	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <li><img class="smallimg" src="\/home\/laxmi\/Desktop\/Website\/img\/download.png" alt="car image"><\/li>$/;"	function	line:14
+li	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <li><img class="smallimg" src="\/home\/laxmi\/Desktop\/Website\/img\/car.png" alt="car image"><\/li>$/;"	function	line:15
+li	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <li><img class="smallimg" src="\/home\/laxmi\/Desktop\/Website\/img\/dainik.png" alt="car image"><\/li>$/;"	function	line:16
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^    <div class="mydiv">$/;"	function	line:20
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:21
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Khabren<\/button>$/;"	function	line:22
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:23
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Desh<\/a>$/;"	function	line:24
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Duniya<\/a>$/;"	function	line:25
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Karobar<\/a>$/;"	function	line:26
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Mahanagar<\/a>$/;"	function	line:27
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Good news<\/a>$/;"	function	line:28
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Khabren jra hat ke<\/a><\/div>$/;"	function	line:29
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:31
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Live TV<\/button>$/;"	function	line:32
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:33
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Live TV<\/a><\/div>$/;"	function	line:34
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:36
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Rajyon se<\/button>$/;"	function	line:37
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:38
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Uttar pradesh<\/a>$/;"	function	line:39
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Bihar<\/a>$/;"	function	line:40
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Delhi<\/a>$/;"	function	line:41
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Panjab<\/a>$/;"	function	line:42
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Hariyana<\/a>$/;"	function	line:43
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Maharastra<\/a>$/;"	function	line:44
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Aandhra pradesh<\/a>$/;"	function	line:45
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Chateesgar<\/a>$/;"	function	line:46
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Jharkhand<\/a>$/;"	function	line:47
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Uttranchal<\/a>$/;"	function	line:48
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:51
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Khel<\/button>$/;"	function	line:52
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:53
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Cricket ki khabren<\/a>$/;"	function	line:54
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Score card<\/a>$/;"	function	line:55
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Ricord<\/a>$/;"	function	line:56
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Raacking<\/a>$/;"	function	line:57
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Annay khabren<\/a><\/div>$/;"	function	line:58
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:60
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Currior<\/button>$/;"	function	line:61
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:62
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">JOBS<\/a>$/;"	function	line:63
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Khabren<\/a>$/;"	function	line:64
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">TIPS<\/a>$/;"	function	line:65
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">General knowledge<\/a>$/;"	function	line:66
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Success story<\/a><\/div>$/;"	function	line:67
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:69
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Starry<\/button>$/;"	function	line:70
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:71
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Raight daight<\/a>$/;"	function	line:72
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Fitness<\/a>$/;"	function	line:73
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Pregnency<\/a>$/;"	function	line:74
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Chaild cear<\/a>$/;"	function	line:75
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Beauty tips<\/a>$/;"	function	line:76
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Mackup<\/a>$/;"	function	line:77
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Fation<\/a><\/div>$/;"	function	line:78
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:80
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Photo<\/button>$/;"	function	line:81
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:82
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Desh<\/a>$/;"	function	line:83
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Duniya<\/a>$/;"	function	line:84
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Khel<\/a>$/;"	function	line:85
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Parryatan<\/a><\/div>$/;"	function	line:86
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:88
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Video<\/button>$/;"	function	line:89
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:90
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Desh<\/a>$/;"	function	line:91
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Duniys<\/a>$/;"	function	line:92
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Khel<\/a>$/;"	function	line:93
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Manoranjan<\/a>$/;"	function	line:94
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:97
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Exclusive<\/button>$/;"	function	line:98
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:99
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Desh-Exclusive<\/a>$/;"	function	line:100
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Duniys-Exclusive<\/a>$/;"	function	line:101
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Khel-Exclusive<\/a>$/;"	function	line:102
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Manoranjan-Exclusive<\/a>$/;"	function	line:103
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:106
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Movie masala<\/button>$/;"	function	line:107
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:108
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Letest BUZZ<\/a>$/;"	function	line:109
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Gossip<\/a>$/;"	function	line:110
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Chota parda<\/a>$/;"	function	line:111
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Interview<\/a>$/;"	function	line:112
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Movie rivew<\/a>$/;"	function	line:113
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Trealor<\/a>$/;"	function	line:114
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Vayral video<\/a><\/div>$/;"	function	line:115
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:117
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Life style<\/button>$/;"	function	line:118
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:119
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Rilationship<\/a>$/;"	function	line:120
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Rahan sahan<\/a><\/div>$/;"	function	line:121
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:123
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Jurm<\/button>$/;"	function	line:124
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:125
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Murder mistery<\/a>$/;"	function	line:126
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Charchit kand<\/a>$/;"	function	line:127
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Saiber crime<\/a>$/;"	function	line:128
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Seriol clior<\/a>$/;"	function	line:129
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Sex scandel<\/a>$/;"	function	line:130
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Bahubali<\/a><\/div>$/;"	function	line:131
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="news">$/;"	function	line:133
+button	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <button class="button">Dharm<\/button>$/;"	function	line:134
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <div class="dropdown">$/;"	function	line:135
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Rashi<\/a>$/;"	function	line:136
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Dharmik sthal<\/a>$/;"	function	line:137
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Brat tyohar<\/a>$/;"	function	line:138
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Jigyasha<\/a>$/;"	function	line:139
+a	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <a href="#">Mantar<\/a><\/div>$/;"	function	line:140
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^     <div class="brek-news">$/;"	function	line:146
+h	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <h2>BREAKING NEWS<\/h2>$/;"	function	line:147
+h	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <h3>Nagpur university ke bahar ABVP karyakarta ka pradarshan 15:26 IST<\/h3>$/;"	function	line:148
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^    <div class="container">$/;"	function	line:151
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="center-div">$/;"	function	line:153
+h	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <h4>Uri hamle k bad sarkar ka ek aur bada faisla,ab BSF k pas hoga apna alag air ving<\/h4>$/;"	function	line:155
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <hr>$/;"	function	line:156
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <p>* Sartaj Ajeej bole-abharat ne sindhu jal sajhauta toda to International coart jayege.<\/p>$/;"	function	line:157
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <hr>$/;"	function	line:158
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <p>* MNS ki dhamki nahi, bibi hai pregnent isliye Pakistan laute Favad Khan.<\/p>$/;"	function	line:159
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <hr>$/;"	function	line:160
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <p>* India todey inspect: gayon ki taskari pr Rajnath shakhat, BSF ke sath ki baithak.<\/p>$/;"	function	line:161
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <hr>$/;"	function	line:162
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <p>* Rishvat mamle me fansepurv D.G. B.K.Bansal ne bete ke sath ke khudkushi.<\/p>$/;"	function	line:163
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <hr>$/;"	function	line:164
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <p>* Katju ne PAK ko diya kashmeer k sath BIhar lene ka offer, Nitesh bhadke.<\/p>$/;"	function	line:165
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <hr>$/;"	function	line:166
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <p>* Sartaj Ajeej bole-abharat ne sindhu jal sajhauta toda to International coart jayege.<\/p>$/;"	function	line:167
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <hr>$/;"	function	line:168
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <p>* MNS ki dhamki nahi, bibi hai pregnent isliye Pakistan laute favad Khan.<\/p>$/;"	function	line:169
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <hr>$/;"	function	line:170
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <p> India todey inspect: gayon ki taskari pr Rajnath shakhat, BSF ke sath ki baithak.<\/p>$/;"	function	line:171
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <hr>$/;"	function	line:172
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <p>* Rishvat mamle me fansepurv D.G. B.K.Bansal ne bete ke sath ke khudkushi.<\/p>$/;"	function	line:173
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <hr>$/;"	function	line:174
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="images">$/;"	function	line:177
+img	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <img class="image" src="\/home\/laxmi\/Desktop\/Website\/modi.jpg" alt="modi">$/;"	function	line:178
+img	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <img class="image" src="\/home\/laxmi\/Desktop\/Website\/pyn.jpg" alt="modi">$/;"	function	line:179
+h	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <h5>BADE KHABREN<\/h5>$/;"	function	line:181
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^        <div class="desh-news">$/;"	function	line:183
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <p>* Katju ne PAK ko diya kashmeer k sath BIhar lene ka offer, Nitesh bhadke.$/;"	function	line:184
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <hr>$/;"	function	line:185
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <p>* Sartaj Ajeej bole-abharat ne sindhu jal sajhauta toda to International coart jayege.$/;"	function	line:186
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                    <hr>$/;"	function	line:187
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^                    <p>* MNS ki dhamki nahi, bibi hai pregnent isliye Pakistan laute favad Khan.$/;"	function	line:188
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                        <hr>$/;"	function	line:189
+p	/home/laxmi/Desktop/Website/html/aajtak.html	/^                        <p>* India todey inspect: gayon ki taskari pr Rajnath shakhat, BSF ke sath ki baithak.$/;"	function	line:190
+hr	/home/laxmi/Desktop/Website/html/aajtak.html	/^                            <hr><\/div>$/;"	function	line:191
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^                            <div class="short-pic">$/;"	function	line:192
+img	/home/laxmi/Desktop/Website/html/aajtak.html	/^                            <img class="pic" src="\/home\/laxmi\/Desktop\/Website\/img\/ppp.jpg" alt="saniya">$/;"	function	line:193
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^         <div class="n-img">$/;"	function	line:198
+img	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <img class="image" src="\/home\/laxmi\/Desktop\/Website\/img\/saniya.jpg" alt="saniya">$/;"	function	line:199
+img	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <img class="imagee" src="\/home\/laxmi\/Desktop\/Website\/img\/p.v.sindhu.jpg" alt="aamir" >$/;"	function	line:201
+li	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <li>3 Bhasao me bnegi P.V. Sindhu k koch Gopichandan ke biopic<\/li><hr>$/;"	function	line:202
+img	/home/laxmi/Desktop/Website/html/aajtak.html	/^              <img class="imagee" src="\/home\/laxmi\/Desktop\/Website\/img\/salman.jpg" alt="aamir" >$/;"	function	line:203
+li	/home/laxmi/Desktop/Website/html/aajtak.html	/^              <li>Pakistani kalakaron ke bain k bare me kuch aisa sochte hai bollybood sitare<\/li><hr>$/;"	function	line:204
+img	/home/laxmi/Desktop/Website/html/aajtak.html	/^              <img class="imagee" src="\/home\/laxmi\/Desktop\/Website\/img\/dhoni.jpg" alt="aamir" >$/;"	function	line:205
+li	/home/laxmi/Desktop/Website/html/aajtak.html	/^              <li>M.S. Dhoni: the untold story ne mahaj 3 din me kamaye 66 karor rupiye<\/li><hr>$/;"	function	line:206
+img	/home/laxmi/Desktop/Website/html/aajtak.html	/^              <img class="imagee" src="\/home\/laxmi\/Desktop\/Website\/img\/sridevi.jpg" alt="aamir" >$/;"	function	line:207
+li	/home/laxmi/Desktop/Website/html/aajtak.html	/^                <li>Janiye kiske sath devyu krne ja rhi h sridevi ke beti Janhvi<\/li><hr>$/;"	function	line:208
+div	/home/laxmi/Desktop/Website/html/aajtak.html	/^    <div class="photo">$/;"	function	line:210
+img	/home/laxmi/Desktop/Website/html/aajtak.html	/^            <img class="image" src="\/home\/laxmi\/Desktop\/Website\/img\/aamir.jpg" alt="aamir" >$/;"	function	line:211
