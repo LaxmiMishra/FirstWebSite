@@ -158,7 +158,7 @@ h5 {
     position: absolute;
     border-bottom-style: solid;
     top: 400px;
-    left: 575px;
+    left: 560px;
     color: red;
     font-size: 20px;
 }
@@ -192,10 +192,10 @@ h5 {
     position: absolute;
     z-index: -1;
     display: block;
-    width: 90%;
+    width: 80%;
     height: 100%;
-    margin-right: 60px;
-    margin-left: 60px;
+    margin-left:60px;
+    margin-right: 30px;
     padding: 0px;
 }
 
@@ -216,27 +216,19 @@ h5 {
 
 .srt-pic {
     float: right;
-    position: relative;
-    top: 20em;
-    right: 5em;
+    position: absolute;
+    top: 27em;
+    right: 1em;
 }
 
 .n-img {
     position: absolute;
-    top: 900px;
-    margin: 45px;
+    left:350px;
+    top: 0px;
+    width:500px;
+    height: 400px;
     border: 2px solid #000;
     background-color: #F0F0F0;
-}
-
-.n-img > li {
-    position: relative;
-}
-
-.n-img .image {
-    width: 260px;
-    height: 400px;
-    position: relative;
 }
 
 .photo {
@@ -244,14 +236,6 @@ h5 {
     top: 680px;
     float: right;
     margin-right: 200px;
-}
-
-.news-img > imagee {
-    position: relative;
-    width: 40px;
-    height: 40px;
-    float: right;
-    top: 100px;
 }
 
 .butn-div{    
@@ -267,8 +251,24 @@ h5 {
 .bigdiv {
    top:700px; 
    display: block;
-   width:70em;
-   height:500px; 
+   width:75em;
+   height:400px; 
    position: relative;
    border-style: solid;
+}
+
+.bigdiv-left-image {
+    left:0;
+    height:400px; 
+    position: absolute;
+}
+
+.bigdiv-right-image {
+    right:0;
+    height:400px; 
+    position: absolute;
+}
+
+.middle-news {
+    position: relative;
 }
