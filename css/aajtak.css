@@ -1,0 +1,274 @@
+.header {
+    position: relative;
+    display: block;
+    height: 200px;
+    margin: 0;
+    background-color: #2a8bd0;
+}
+
+html {
+    display: block;
+}
+
+
+/*
+ div {
+    border-style: dotted;
+ }
+ */
+
+h1 {
+    position: relative;
+    top: 150px;
+    margin-right: 50px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.img {
+    position: absolute;
+    top: 30px;
+    left: 200px;
+    width: 200px;
+    height: 140px;
+    padding: 10px;
+    border-radius: 50%;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+}
+
+.mydiv {
+    position: relative;
+    height: 30px;
+    padding-left: 200px;
+    background-color: #014577;
+}
+
+.news {
+    position: relative;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: #014577;
+}
+
+.button {
+    position: relative;
+    padding: 6px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-style: none;
+    background-color: #014577;
+    font-size: 15px;
+}
+
+.dropdown {
+    position: absolute;
+    display: none;
+    float: left;
+    width: 150px;
+}
+
+.dropdown a {
+    position: relative;
+    display: block;
+    padding: 8px;
+    -webkit-transition: padding-left 1s;
+    /* Safari 3.1 to 6.0 */
+    transition: padding-left 1s;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #555;
+    background-color: #2a8bd0;
+}
+
+.dropdown a:hover {
+    padding-left: 25px;
+    background-color: #014577;
+}
+
+.news:hover .dropdown {
+    display: block;
+}
+
+.news:hover .button {
+    background-color: #2a8bd0
+}
+
+ul {
+    position: realative;
+    top: 100px;
+    right: 150px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin: 4px;
+}
+
+.smallimg {
+    display: inline;
+    width: 40px;
+    height: 40px;
+}
+
+.brek-news {
+    position: relative;
+    z-index: -1;
+    height: 36px;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+    background-color: black;
+}
+
+h2 {
+    position: absolute;
+    margin: 5px;
+    color: red;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+
+h3 {
+    position: relative;
+    margin-left: 250px;
+    padding-top: 6px;
+    color: white;
+    font-size: 18px;
+}
+
+h4 {
+    position: relative;
+    margin: 5px;
+    margin-top: 20px;
+    color: red;
+    font-size: 23px;
+}
+
+h5 {
+    position: absolute;
+    border-bottom-style: solid;
+    top: 400px;
+    left: 575px;
+    color: red;
+    font-size: 20px;
+}
+
+.desh-news {
+    position: relative;
+    top: 50px;
+    right: 340px;
+    float: right;
+    width: 300px;
+}
+
+.center-div {
+    float: left;
+    width: 40%;
+    height: 80%;
+}
+
+.center-div > p {
+    position: relative;
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.desh-news > p {
+    font-size: 15px;
+}
+
+.container {
+    position: absolute;
+    z-index: -1;
+    display: block;
+    width: 90%;
+    height: 100%;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding: 0px;
+}
+
+.image {
+    position: relative;
+    margin: 10px;
+    float: left;
+    width: 300px;
+    height: 400px;
+}
+
+.images {
+    position: relative;
+    right: 12px;
+    float: right;
+    margin-left: : 100px;
+}
+
+.srt-pic {
+    float: right;
+    position: relative;
+    top: 20em;
+    right: 5em;
+}
+
+.n-img {
+    position: absolute;
+    top: 900px;
+    margin: 45px;
+    border: 2px solid #000;
+    background-color: #F0F0F0;
+}
+
+.n-img > li {
+    position: relative;
+}
+
+.n-img .image {
+    width: 260px;
+    height: 400px;
+    position: relative;
+}
+
+.photo {
+    position: relative;
+    top: 680px;
+    float: right;
+    margin-right: 200px;
+}
+
+.news-img > imagee {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    float: right;
+    top: 100px;
+}
+
+.butn-div{    
+    position: relative; 
+    border-style: solid;
+    border-color: red;
+    float:right;
+    top: 130px;
+    margin-left: 300px;
+    margin-right: 120px;
+}
+
+.bigdiv {
+   top:700px; 
+   display: block;
+   width:70em;
+   height:500px; 
+   position: relative;
+   border-style: solid;
+}
